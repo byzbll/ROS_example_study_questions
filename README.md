@@ -37,6 +37,7 @@ orn3 dosyaları, sabit bir sayı (`fixed_number`) ve bir isimle ilişkilendirilm
 - **name_number_publisher_orn3.py**: Bir isim (`Beyza`) ve bu isme karşılık gelen sayıyı (`3`) `/name_string` ve `/name_number` topiklerine yayın yapar.
 
 ### Example Output:
+```bash
 Fixed Number Publisher --->> [INFO] [1634556347.456789]: Publishing fixed number: 3  
 Name-Number Publisher --->> [INFO] [1634556348.456789]: Publishing name: Beyza and number: 3  
 Name-Number Multiplier --->> [INFO] [1634556349.456789]: Received name: Beyza  
